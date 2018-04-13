@@ -81,7 +81,8 @@ class Enemy extends Entity{
 					this.speedY*=-1
 				break
 			}
-		}		
+		}	
+		super.move()
 	}
 
 	canWalk(dir){
