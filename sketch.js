@@ -45,7 +45,7 @@ function preload(){
 	lvl1.setLoop(true)
 	bossLvl =  loadSound('sound/boss.mp3');
 	bossLvl.setLoop(true)
-	fuse =  loadSound('sound/dot.wav');
+	fuse =  loadSound('sound/dot.WAV');
 	boom =  loadSound('sound/bomb.wav');
 }
 
